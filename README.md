@@ -21,7 +21,7 @@ La aplicación está diseñada para brindar a los usuarios una experiencia intui
 
 ### Instalación y Ejecución
 
-1-Clona este repositorio: git clone <URL_DEL_REPOSITORIO>
+1-Clona este repositorio: git clone https://github.com/crcristian97/test-nacion
 2-Navega a la carpeta del proyecto: cd nombre-del-proyecto
 3-Instala las dependencias: npm install
 4-Ejecuta la aplicación en modo de desarrollo: npm start
