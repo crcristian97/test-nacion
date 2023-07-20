@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# React App "La Nacion"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Examen realizado para prueba de la empresa "La Nacion".Acumulado Grilla - Aplicación para mostrar una lista de artículos organizados por etiquetas y sus imágenes asociadas.
 
-## Available Scripts
+## Descripción
+Acumulado Grilla es una aplicación web desarrollada en React que permite a los usuarios explorar una lista de artículos ordenados por etiquetas y ver las imágenes asociadas a cada etiqueta. La aplicación obtiene los datos de los artículos a través de una API externa y procesa las etiquetas para mostrar las más relevantes primero.
 
-In the project directory, you can run:
+### Características principales:
 
-### `npm start`
+1-Lista de artículos: Muestra una lista de artículos filtrados y ordenados por fecha de forma ascendente.
+2-Etiquetas destacadas: Muestra una lista de etiquetas más utilizadas en los artículos con la cantidad de artículos asociados a cada etiqueta.
+3-Imágenes de etiquetas: Muestra una imagen representativa del primer artículo asociado a cada etiqueta.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+La aplicación está diseñada para brindar a los usuarios una experiencia intuitiva y visualmente atractiva al navegar por los artículos y etiquetas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Tecnologías Utilizadas
 
-### `npm test`
+-React: Biblioteca de JavaScript utilizada para construir interfaces de usuario interactivas y reutilizables.
+-JavaScript (ES6+): Uso de las características modernas de JavaScript para una codificación más eficiente.
+-CSS: Estilos para el diseño y presentación de la interfaz de usuario.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Instalación y Ejecución
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1-Clona este repositorio: git clone <URL_DEL_REPOSITORIO>
+2-Navega a la carpeta del proyecto: cd nombre-del-proyecto
+3-Instala las dependencias: npm install
+4-Ejecuta la aplicación en modo de desarrollo: npm start
